@@ -9,25 +9,6 @@ This project addresses the pressing issue of student dropouts in Indian schools 
 <p align="center"> <img src="https://sde.ok.gov/sites/ok.gov.sde/files/1%20in%204%20every%20student%20drop%20out%20banner.jpg" alt="Student Dropout Analysis" style="width: auto; height: 200px;"/> </p>
 
 
- **Table of Contents**
-- [Key Features](#Key-Features)
-  
-- [Dataset Overview](#dataset-overview)
-  
-- [Technologies](#Technologies)
-  
-- [Visualization](#visualization)
-  
-- [Link to download apk](#Link-to-download-apk)
-  
-- [Run the Application](#Run-the-Application)
-  
-- [Result](#result)
-  
-- [Usage](#Usage)
-  
-- [License](#License)
-
 **Key Features**
 
 * Data-Driven Analysis: Employs advanced data analysis techniques to identify key factors influencing dropout rates.
