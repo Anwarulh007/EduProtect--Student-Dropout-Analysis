@@ -5,6 +5,9 @@
 
 This project addresses the pressing issue of student dropouts in Indian schools by leveraging machine learning and mobile app development. It provides a comprehensive solution for predicting dropout likelihood and facilitating collaboration between educators, parents, and students.
 
+
+<p align="center"> <img src="https://sde.ok.gov/sites/ok.gov.sde/files/1%20in%204%20every%20student%20drop%20out%20banner.jpg" alt="Student Dropout Analysis" style="width: auto; height: 200px;"/> </p>
+
 **Key Features**
 
 * Data-Driven Analysis: Employs advanced data analysis techniques to identify key factors influencing dropout rates.
