@@ -1,5 +1,5 @@
 
-**Student Dropout Prediction**
+## Student Dropout Prediction
 
 **Project Overview**
 
@@ -20,8 +20,8 @@ This project addresses the pressing issue of student dropouts in Indian schools 
 * Libraries and Frameworks: Matplotlib, Scikit-learn, Pandas, NumPy, Android SDK
 
 
-## link to download apk
-[https://drive.google.com/file/d/1MGoLPQ-CM4oIjddl5DVZNGzJzTuftWRz/view?usp=drive_link]
+**link to download apk**
+https://drive.google.com/file/d/1MGoLPQ-CM4oIjddl5DVZNGzJzTuftWRz/view?usp=drive_link
 
 **Run the Application**
 
