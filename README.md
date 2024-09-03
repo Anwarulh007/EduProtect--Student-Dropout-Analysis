@@ -21,7 +21,7 @@ This project addresses the pressing issue of student dropouts in Indian schools 
 **Dataset Overview**
 
 <p align="center"> 
- <img src="https://github.com/Anwarulh007/Student-Dropout-Analysis/blob/main/Dataset%20Overview.jpg" alt="Dataset Overview" style="width: auto; height: 200px;"/> 
+ <img src="https://github.com/Anwarulh007/Student-Dropout-Analysis/blob/main/Dataset%20Overview.jpg" alt="Dataset Overview" style="width: auto; height: 300px;"/> 
 </p>
 
 **Technologies**
@@ -38,7 +38,7 @@ Let's see the distribution of Dropout Rates with respect to School Type using ba
 School wise Dropout Rates
 
 <p align="center"> 
- <img src="https://github.com/Anwarulh007/Student-Dropout-Analysis/blob/main/Data%20Visualization/Dropout%20Rates%20based%20on%20School%20Type.jpg" alt="School wise Dropout Rates" style="width: auto; height: 200px;"/> 
+ <img src="https://github.com/Anwarulh007/Student-Dropout-Analysis/blob/main/Data%20Visualization/Dropout%20Rates%20based%20on%20School%20Type.jpg" alt="School wise Dropout Rates" style="width: auto; height: 300px;"/> 
 </p>
 
 
@@ -51,7 +51,7 @@ There has been maximum number of dropouts from Government School.
 **Location wise Dropout Rates**
 
 <p align="center"> 
- <img src="https://github.com/Anwarulh007/Student-Dropout-Analysis/blob/main/Data%20Visualization/Location%20wise%20Dropout%20Rates%20.jpg" alt="Location wise Dropout Rates" style="width: auto; height: 200px;"/> 
+ <img src="https://github.com/Anwarulh007/Student-Dropout-Analysis/blob/main/Data%20Visualization/Location%20wise%20Dropout%20Rates%20.jpg" alt="Location wise Dropout Rates" style="width: auto; height: 300px;"/> 
 </p>
 
 
@@ -64,7 +64,7 @@ The greatest percentage of dropouts has come from rural areas.
 **Gender wise Dropout Rates**
 
 <p align="center"> 
- <img src="https://github.com/Anwarulh007/Student-Dropout-Analysis/blob/main/Data%20Visualization/Gender%20wise%20Dropout%20Rates.jpg" alt="Gender wise Dropout Rates" style="width: auto; height: 200px;"/> 
+ <img src="https://github.com/Anwarulh007/Student-Dropout-Analysis/blob/main/Data%20Visualization/Gender%20wise%20Dropout%20Rates.jpg" alt="Gender wise Dropout Rates" style="width: auto; height: 300px;"/> 
 </p>
 
 Insights 🔹
@@ -75,7 +75,7 @@ The largest percentage of dropouts have been women.
 **Caste wise Dropout Rates**
 
 <p align="center"> 
- <img src="https://github.com/Anwarulh007/Student-Dropout-Analysis/blob/main/Data%20Visualization/Caste%20wise%20Dropout%20rates.jpg" alt="Caste wise Dropout Rates" style="width: auto; height: 200px;"/> 
+ <img src="https://github.com/Anwarulh007/Student-Dropout-Analysis/blob/main/Data%20Visualization/Caste%20wise%20Dropout%20rates.jpg" alt="Caste wise Dropout Rates" style="width: auto; height: 300px;"/> 
 </p>
 
 Insights 🔹
@@ -86,7 +86,7 @@ The ST caste has had the highest percentage of dropouts.
 **Standard wise Dropout Rates**
 
 <p align="center"> 
- <img src="https://github.com/Anwarulh007/Student-Dropout-Analysis/blob/main/Data%20Visualization/Standard%20wise%20Dropout%20Rates.jpg" alt="Standard wise Dropout Rates" style="width: auto; height: 200px;"/> 
+ <img src="https://github.com/Anwarulh007/Student-Dropout-Analysis/blob/main/Data%20Visualization/Standard%20wise%20Dropout%20Rates.jpg" alt="Standard wise Dropout Rates" style="width: auto; height: 300px;"/> 
 </p>
 
  Insights🔹
@@ -97,7 +97,7 @@ The highest percentage of dropouts came from the eighth standard.
 **Age wise Dropout Rates**
 
 <p align="center"> 
- <img src="https://github.com/Anwarulh007/Student-Dropout-Analysis/blob/main/Data%20Visualization/Age%20wise%20Dropout%20Rates.jpg" alt="Age wise Dropout Rates" style="width: auto; height: 200px;"/> 
+ <img src="https://github.com/Anwarulh007/Student-Dropout-Analysis/blob/main/Data%20Visualization/Age%20wise%20Dropout%20Rates.jpg" alt="Age wise Dropout Rates" style="width: auto; height: 300px;"/> 
 </p>
 
  Insights🔹
@@ -108,7 +108,7 @@ The age group of 12 years old accounts for the highest percentage of dropouts.
 **Overall Dropout Rates based on all Categories**
 
 <p align="center"> 
- <img src="https://github.com/Anwarulh007/Student-Dropout-Analysis/blob/main/Data%20Visualization/Overall%20Dropout%20rates%20.jpg" alt="Overall Dropout Rates based on all Categories" style="width: auto; height: 200px;"/> 
+ <img src="https://github.com/Anwarulh007/Student-Dropout-Analysis/blob/main/Data%20Visualization/Overall%20Dropout%20rates%20.jpg" alt="Overall Dropout Rates based on all Categories" style="width: auto; height: 300px;"/> 
 </p>
 
  Insights🔹
@@ -120,7 +120,7 @@ Age/Standard category dropout rates have been the highest.
  **Total Dropout Percentage**
 
 <p align="center"> 
- <img src="https://github.com/Anwarulh007/Student-Dropout-Analysis/blob/main/Data%20Visualization/Overall%20Dropout%20Percentage.jpg" alt="Total Dropout Percentage" style="width: auto; height: 200px;"/> 
+ <img src="https://github.com/Anwarulh007/Student-Dropout-Analysis/blob/main/Data%20Visualization/Overall%20Dropout%20Percentage.jpg" alt="Total Dropout Percentage" style="width: auto; height: 300px;"/> 
 </p>
 
 ----------------------------------------------------------------------------------------------------------------------------------------------
@@ -136,7 +136,7 @@ Age/Standard category dropout rates have been the highest.
 **App Interface**
 
 <p align="center"> 
- <img src="https://github.com/Anwarulh007/Student-Dropout-Analysis/blob/main/App%20Interface.jpg" alt="App Interface" style="width: auto; height: 200px;"/> 
+ <img src="https://github.com/Anwarulh007/Student-Dropout-Analysis/blob/main/App%20Interface.jpg" alt="App Interface" style="width: auto; height: 400px;"/> 
 </p>
 
 **Output**
