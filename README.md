@@ -20,8 +20,8 @@ This project addresses the pressing issue of student dropouts in Indian schools 
 * Libraries and Frameworks: Matplotlib, Scikit-learn, Pandas, NumPy, Android SDK
 
 
-**link to download apk**
-https://drive.google.com/file/d/1MGoLPQ-CM4oIjddl5DVZNGzJzTuftWRz/view?usp=drive_link
+**Link to download apk**
+[https://drive.google.com/file/d/1MGoLPQ-CM4oIjddl5DVZNGzJzTuftWRz/view?usp=drive_link]
 
 **Run the Application**
 
@@ -35,4 +35,8 @@ https://drive.google.com/file/d/1MGoLPQ-CM4oIjddl5DVZNGzJzTuftWRz/view?usp=drive
 * Input Student Data: Enter relevant information about the student, such as socio-economic background, academic performance, and other factors.
 * Receive Prediction: The application will use the predictive model to calculate the dropout likelihood and provide a prediction.
 * Access Resources: Counselors and skill-based centers can join the app to access resources, connect with students, and offer support.
+
+**License**
+
+This project is licensed under the MIT License.
 
