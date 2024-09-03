@@ -6,7 +6,9 @@
 This project addresses the pressing issue of student dropouts in Indian schools by leveraging machine learning and mobile app development. It provides a comprehensive solution for predicting dropout likelihood and facilitating collaboration between educators, parents, and students.
 
 
-<p align="center"> <img src="https://sde.ok.gov/sites/ok.gov.sde/files/1%20in%204%20every%20student%20drop%20out%20banner.jpg" alt="Student Dropout Analysis" style="width: auto; height: 200px;"/> </p>
+<p align="center"> 
+ <img src="https://sde.ok.gov/sites/ok.gov.sde/files/1%20in%204%20every%20student%20drop%20out%20banner.jpg" alt="Student Dropout Analysis" style="width: auto; height: 200px;"/> 
+</p>
 
 
 **Key Features**
@@ -17,7 +19,10 @@ This project addresses the pressing issue of student dropouts in Indian schools 
 * Collaborative Platform: Facilitates collaboration between counselors and skill-based centers to provide timely support to students at risk.
 
 **Dataset Overview**
-![image](https://github.com/FaisalShmm/Superstore_analysis/assets/82232939/83f38733-d33d-4404-b2a9-111ff98a10dd)
+
+<p align="center"> 
+ <img src="https://sde.ok.gov/sites/ok.gov.sde/files/1%20in%204%20every%20student%20drop%20out%20banner.jpg" alt="Student Dropout Analysis" style="width: auto; height: 200px;"/> 
+</p>
 
 **Technologies**
 
@@ -32,7 +37,10 @@ Let's see the distribution of Dropout Rates with respect to School Type using ba
 
 School wise Dropout Rates
 
-![v1](https://github.com/FaisalShmm/Superstore_analysis/assets/82232939/8ebcf319-5c63-42bd-b55b-29100360958d)
+<p align="center"> 
+ <img src="https://sde.ok.gov/sites/ok.gov.sde/files/1%20in%204%20every%20student%20drop%20out%20banner.jpg" alt="Student Dropout Analysis" style="width: auto; height: 200px;"/> 
+</p>
+
 
 Insights 🔹
 
@@ -42,7 +50,10 @@ There has been maximum number of dropouts from Government School.
 
 **Location wise Dropout Rates**
 
-![v2](https://github.com/FaisalShmm/Superstore_analysis/assets/82232939/76e5cd99-7828-4bd4-be11-2b79c287485a)
+<p align="center"> 
+ <img src="https://sde.ok.gov/sites/ok.gov.sde/files/1%20in%204%20every%20student%20drop%20out%20banner.jpg" alt="Student Dropout Analysis" style="width: auto; height: 200px;"/> 
+</p>
+
 
 Insights 🔹
 
@@ -52,7 +63,9 @@ The greatest percentage of dropouts has come from rural areas.
 
 **Gender wise Dropout Rates**
 
-![v3](https://github.com/FaisalShmm/Superstore_analysis/assets/82232939/6d580819-b333-4fb0-917a-054cd7ac5165)
+<p align="center"> 
+ <img src="https://sde.ok.gov/sites/ok.gov.sde/files/1%20in%204%20every%20student%20drop%20out%20banner.jpg" alt="Student Dropout Analysis" style="width: auto; height: 200px;"/> 
+</p>
 
 Insights 🔹
 
@@ -61,7 +74,9 @@ The largest percentage of dropouts have been women.
 -----------------------------------------------------------------------------------------------------------------------------------------------
 **Caste wise Dropout Rates**
 
-![v4](https://github.com/FaisalShmm/Superstore_analysis/assets/82232939/406255bc-05f6-476c-9649-e56f9257070c)
+<p align="center"> 
+ <img src="https://sde.ok.gov/sites/ok.gov.sde/files/1%20in%204%20every%20student%20drop%20out%20banner.jpg" alt="Student Dropout Analysis" style="width: auto; height: 200px;"/> 
+</p>
 
 Insights 🔹
 
@@ -70,7 +85,9 @@ The ST caste has had the highest percentage of dropouts.
 -----------------------------------------------------------------------------------------------------------------------------------------------
 **Standard wise Dropout Rates**
 
-![v5](https://github.com/FaisalShmm/Superstore_analysis/assets/82232939/9b973a62-4c2b-4171-a069-9721b5090db5)
+<p align="center"> 
+ <img src="https://sde.ok.gov/sites/ok.gov.sde/files/1%20in%204%20every%20student%20drop%20out%20banner.jpg" alt="Student Dropout Analysis" style="width: auto; height: 200px;"/> 
+</p>
 
  Insights🔹
 
@@ -79,7 +96,9 @@ The highest percentage of dropouts came from the eighth standard.
 ----------------------------------------------------------------------------------------------------------------------------------------------
 **Age wise Dropout Rates**
 
-![v6](https://github.com/FaisalShmm/Superstore_analysis/assets/82232939/9b973a62-4c2b-4171-a069-9721b5090db5)
+<p align="center"> 
+ <img src="https://sde.ok.gov/sites/ok.gov.sde/files/1%20in%204%20every%20student%20drop%20out%20banner.jpg" alt="Student Dropout Analysis" style="width: auto; height: 200px;"/> 
+</p>
 
  Insights🔹
 
@@ -88,7 +107,9 @@ The age group of 12 years old accounts for the highest percentage of dropouts.
 ----------------------------------------------------------------------------------------------------------------------------------------------
 **Overall Dropout Rates based on all Categories**
 
-![v7](https://github.com/FaisalShmm/Superstore_analysis/assets/82232939/9b973a62-4c2b-4171-a069-9721b5090db5)
+<p align="center"> 
+ <img src="https://sde.ok.gov/sites/ok.gov.sde/files/1%20in%204%20every%20student%20drop%20out%20banner.jpg" alt="Student Dropout Analysis" style="width: auto; height: 200px;"/> 
+</p>
 
  Insights🔹
 
@@ -98,7 +119,9 @@ Age/Standard category dropout rates have been the highest.
 
  **Total Dropout Percentage**
 
-![v8](https://github.com/FaisalShmm/Superstore_analysis/assets/82232939/9b973a62-4c2b-4171-a069-9721b5090db5)
+<p align="center"> 
+ <img src="https://sde.ok.gov/sites/ok.gov.sde/files/1%20in%204%20every%20student%20drop%20out%20banner.jpg" alt="Student Dropout Analysis" style="width: auto; height: 200px;"/> 
+</p>
 
 ----------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -110,9 +133,17 @@ Age/Standard category dropout rates have been the highest.
 * Start the development server for the backend (Python) using Google Colab or your local environment.
 * Build and run the Android app using Android Studio.
 
-**Result**
+**App Interface**
 
+<p align="center"> 
+ <img src="https://sde.ok.gov/sites/ok.gov.sde/files/1%20in%204%20every%20student%20drop%20out%20banner.jpg" alt="Student Dropout Analysis" style="width: auto; height: 200px;"/> 
+</p>
 
+**Output**
+
+<p align="center"> 
+ <img src="https://sde.ok.gov/sites/ok.gov.sde/files/1%20in%204%20every%20student%20drop%20out%20banner.jpg" alt="Student Dropout Analysis" style="width: auto; height: 200px;"/> 
+</p>
 
 **Usage**
 
