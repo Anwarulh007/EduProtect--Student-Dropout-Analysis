@@ -35,7 +35,7 @@ This project addresses the pressing issue of student dropouts in Indian schools 
 
 Let's see the distribution of Dropout Rates with respect to School Type using bar chart or pie chart
 
-School wise Dropout Rates
+**School wise Dropout Rates**
 
 <p align="center"> 
  <img src="https://github.com/Anwarulh007/Student-Dropout-Analysis/blob/main/Data%20Visualization/Dropout%20Rates%20based%20on%20School%20Type.jpg" alt="School wise Dropout Rates" style="width: auto; height: 300px;"/> 
