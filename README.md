@@ -137,7 +137,7 @@ Age/Standard category dropout rates have been the highest.
 **App Interface**
 
 <p align="center"> 
- <img src="https://github.com/Anwarulh007/Student-Dropout-Analysis/blob/main/App%20Interface.jpg" alt="App Interface" style="width: auto; height: 400px;"/> 
+ <img src="https://github.com/Anwarulh007/Student-Dropout-Analysis/blob/main/App/App%20Interface.jpg" alt="App Interface" style="width: auto; height: 400px;"/> 
 </p>
 
 **Output**
