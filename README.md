@@ -31,6 +31,21 @@ This project addresses the pressing issue of student dropouts in Indian schools 
 * Development Environments: Google Colab and Android Studio
 * Libraries and Frameworks: Matplotlib, Scikit-learn, Pandas, NumPy, Android SDK
 
+## How to Use 🚀
+
+To run the project locally on your machine:
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/Anwarulh007/VoyageNest
+2. **Open the Project**:
+Navigate to the project folder and open the index.html file in your web browser to explore the website locally.
+
+**Live Demo**🔗
+[Visit EduProtect](https://eduprotect.netlify.app/)
+
+
+
 **Visualization**
 
 Let's see the distribution of Dropout Rates with respect to School Type using bar chart or pie chart
