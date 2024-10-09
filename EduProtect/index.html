@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Dropout Prediction</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet"> <!-- Font Awesome for icons -->
+    <style>
+        body {
+            background-color:lightyellow; /* Light gray background */
+        }
+        .container {
+            margin-top: 50px;
+            background: rgba(105, 248, 105, 0.467); /* Light green background for the form container */
+            border-radius: 10px; /* Rounded corners */
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+            padding: 30px; /* Padding around the container */
+        }
+        h1 {
+            padding-top: 10px;
+            text-align: center; /* Center the heading */
+            color: #343a40; /* Dark gray color */
+            margin-bottom: 30px; /* Space below the heading */
+        }
+        .btn-primary {
+            background-color: #007bff; /* Bootstrap primary color */
+            border: none; /* Remove border */
+        }
+        .btn-primary:hover {
+            background-color: #0056b3; /* Darker blue on hover */
+        }
+        .form-label {
+            font-weight: bold; /* Bold labels */
+        }
+        #result {
+            font-weight: bold; /* Bold result text */
+            color: #007bff; /* Primary color for result text */
+        }
+        footer {
+            background-color:rgb(97, 7, 97); /* Dark background for footer */
+            color: white; /* White text in footer */
+            padding: 10px 0;
+            text-align: center;
+            position: relative; /* Changed to relative */
+            margin-top: 20px; /* Space above footer */
+        }
+        footer p {
+            margin: 0; /* Remove default margin */
+        }
+        #clock {
+            font-weight: bold; /* Bold text for the clock */
+            color: #ffc107; /* Amber color for the clock */
+        }
+    </style>
+
+</head>
+<body>
+    <div>
+        <img src="dop.png" alt="Stats" class="img-fluid w-100" style="height: auto;"> <!-- Full-width image -->
+        <h1>EduProtect</h1>
+        <p class="text-center" font-weight: bold >EduProtect is a valuable tool for educators, parents, and students in India. By providing accurate predictions and facilitating collaboration, it aims to address the critical issue of student dropouts and ensure a brighter future for all.</p>
+    </div>
+    <div class="container">
+        <h1>Student Dropout Analysis</h1>
+
+        <form id="dropout-form">
+            <div class="mb-3">
+                <label for="schooltype" class="form-label">School Type</label>
+                <select class="form-select" id="schooltype">
+                    <option value="" disabled selected>Select School type</option>
+                    <option value="Government">Government</option>
+                    <option value="Private">Private</option>
+                </select>
+            </div>
+        
+            <div class="mb-3">
+                <label for="location" class="form-label">Location</label>
+                <select class="form-select" id="location">
+                    <option value="" disabled selected>Select location</option>
+                    <option value="Urban">Urban</option>
+                    <option value="Rural">Rural</option>
+                    <option value="Semi-Urban">Semi-Urban</option>
+                </select>
+            </div>
+        
+            <div class="mb-3">
+                <label for="gender" class="form-label">Gender</label>
+                <select class="form-select" id="gender">
+                    <option value="" disabled selected>Select Gender</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                </select>
+            </div>
+        
+            <div class="mb-3">
+                <label for="caste" class="form-label">Caste</label>
+                <select class="form-select" id="caste">
+                    <option value="" disabled selected>Select caste</option>
+                    <option value="General">General</option>
+                    <option value="OBC">OBC</option>
+                    <option value="SC">SC</option>
+                    <option value="ST">ST</option>
+                </select>
+            </div>
+        
+            <div class="mb-3">
+                <label for="age" class="form-label">Age</label>
+                <input type="number" class="form-control" id="age" placeholder="Enter age" min="5" max="20">
+            </div>
+        
+            <div class="mb-3">
+                <label for="standard" class="form-label">Standard</label>
+                <select class="form-select" id="standard">
+                    <option value="" disabled selected>Select standard</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                </select>
+            </div>
+        
+            <div class="mb-3">
+                <label for="socioeconomicStatus" class="form-label">Socioeconomic Status</label>
+                <select class="form-select" id="socioeconomicStatus">
+                    <option value="" disabled selected>Select socioeconomic status</option>
+                    <option value="Low">Low</option>
+                    <option value="Middle">Middle</option>
+                    <option value="High">High</option>
+                </select>
+            </div>
+        
+            <button type="submit" class="btn btn-primary">Calculate Dropout Probability</button>
+        </form>
+
+        <div class="mt-4">
+            <h4>Estimated Dropout Probability: <span id="result"></span>%</h4>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 EduGuard. All rights reserved.</p>
+        <p>Email: info@EduGuard.com | Phone: +91-9073536911</p>
+        <div id="clock"></div>
+    </footer>
+
+    <script>
+        document.getElementById('dropout-form').addEventListener('submit', function (e) {
+            e.preventDefault();  // Prevent the default form submission
+        
+            // Collect data from the form
+            const studentDetails = {
+                "School_Type": document.getElementById('schooltype').value,
+                "Location": document.getElementById('location').value,
+                "Gender": document.getElementById('gender').value,
+                "Caste": document.getElementById('caste').value,
+                "Age": parseInt(document.getElementById('age').value),
+                "Standard": document.getElementById('standard').value,
+                "Socioeconomic_Status": document.getElementById('socioeconomicStatus').value
+            };
+        
+            // Send the data to the Flask API
+            fetch('http://127.0.0.1:5000/predict', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(studentDetails)
+            })
+            .then(response => response.json())
+            .then(data => {
+                // Display the result
+                data.dropout_probability = 100.00 - data.dropout_probability;  // Invert if needed
+                document.getElementById('result').innerText = data.dropout_probability;
+            })
+            .catch(error => {
+                console.error('Error:', error);
+            });
+        }); 
+        function updateClock() {
+            const now = new Date();
+            const hours = String(now.getHours()).padStart(2, '0');
+            const minutes = String(now.getMinutes()).padStart(2, '0');
+            const seconds = String(now.getSeconds()).padStart(2, '0');
+
+            document.getElementById("clock").textContent = hours + ':' + minutes + ':' + seconds;
+        }
+
+        // Update the clock every second
+        setInterval(updateClock, 1000);
+        updateClock(); // Initial call to set the time immediately       
+    </script>
+</body>
+</html>
