@@ -7,7 +7,7 @@ This project addresses the pressing issue of student dropouts in Indian schools 
 
 
 <p align="center"> 
- <img src="https://github.com/Anwarulh007/EduProtect--Student-Dropout-Analysis/blob/main/Dropout.jpg" alt="Student Dropout Analysis" style="width: auto; height: 200px;"/> 
+ <img src="https://github.com/Anwarulh007/EduProtect--Student-Dropout-Analysis/blob/main/Dropout.jpg" alt="Student Dropout Analysis" style="width: auto; height: 400px;"/> 
 </p>
 
 
