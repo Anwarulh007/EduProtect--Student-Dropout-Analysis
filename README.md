@@ -29,7 +29,7 @@ This project addresses the pressing issue of student dropouts in Indian schools 
 * Programming Languages: Python and Java 
 * Machine Learning: Random Forest
 * Development Environments: Google Colab and Android Studio
-* Libraries and Frameworks: Matplotlib, Scikit-learn, Pandas, NumPy, Android SDK
+* Libraries and Frameworks: Matplotlib, Scikit-learn, Pandas, NumPy,
 
 ## How to Use 🚀
 
