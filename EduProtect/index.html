@@ -153,38 +153,6 @@
     </footer>
 
     <script>
-        document.getElementById('dropout-form').addEventListener('submit', function (e) {
-            e.preventDefault();  // Prevent the default form submission
-        
-            // Collect data from the form
-            const studentDetails = {
-                "School_Type": document.getElementById('schooltype').value,
-                "Location": document.getElementById('location').value,
-                "Gender": document.getElementById('gender').value,
-                "Caste": document.getElementById('caste').value,
-                "Age": parseInt(document.getElementById('age').value),
-                "Standard": document.getElementById('standard').value,
-                "Socioeconomic_Status": document.getElementById('socioeconomicStatus').value
-            };
-        
-            // Send the data to the Flask API
-            fetch('http://127.0.0.1:5000/predict', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify(studentDetails)
-            })
-            .then(response => response.json())
-            .then(data => {
-                // Display the result
-                data.dropout_probability = 100.00 - data.dropout_probability;  // Invert if needed
-                document.getElementById('result').innerText = data.dropout_probability;
-            })
-            .catch(error => {
-                console.error('Error:', error);
-            });
-        }); 
         function updateClock() {
             const now = new Date();
             const hours = String(now.getHours()).padStart(2, '0');
