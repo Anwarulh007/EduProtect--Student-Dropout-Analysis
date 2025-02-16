@@ -41,8 +41,6 @@ To run the project locally on your machine:
 2. **Open the Project**:
 Navigate to the project folder and open the index.html file in your web browser to explore the website locally.
 
-**Live Demo**🔗
-[Visit EduProtect](https://eduprotect.netlify.app/)
 
 
 
