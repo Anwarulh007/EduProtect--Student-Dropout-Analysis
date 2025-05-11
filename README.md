@@ -1,5 +1,5 @@
 
-## Student Dropout Prediction
+## Eduprotect - Student Dropout Prediction
 
 **Project Overview**
 
