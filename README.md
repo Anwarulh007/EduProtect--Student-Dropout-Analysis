@@ -138,21 +138,6 @@ Age/Standard category dropout rates have been the highest.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------
 
-**Link to download apk**
-
-[Download APK](https://drive.google.com/file/d/1MGoLPQ-CM4oIjddl5DVZNGzJzTuftWRz/view?usp=drive_link)
-
-**Run the Application**
-
-* Start the development server for the backend (Python) using Google Colab or your local environment.
-* Build and run the Android app using Android Studio.
-
-**App Interface**
-
-<p align="center"> 
- <img src="https://github.com/Anwarulh007/Student-Dropout-Analysis/blob/main/App/App%20Interface.jpg" alt="App Interface" style="width: auto; height: 400px;"/> 
-</p>
-
 **Output**
 
 <p align="center"> 
